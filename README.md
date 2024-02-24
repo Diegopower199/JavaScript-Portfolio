@@ -3,15 +3,19 @@
 Este repositorio contiene un conjunto de proyectos desarrollados en JavaScript
 
 
-## Comenzando :warning:
+## Advertencia :warning:
 
-**Si utilizo require la extension debe ser .js**
+Los proyectos de JavaScript hay dos extensiones posibles: 
 
-**Si utilizo import la extension debe ser .mjs**
+  - **_Si utilizo require la extension debe ser .js_**
+
+  - **_Si utilizo import la extension debe ser .mjs_**
 
 
-Por hacer:
+## Proyectos Futuros
+
   - Control de errores
+  
   - Validacion de formularios 
 
 
