@@ -1,6 +1,7 @@
 // const readline = require("readline");
 import readline from "readline";
 import { COLORES_TEXTOS_CONSOLA } from "../../utils/Estilos-Consola.mjs";
+import { CONJUGACIONES_INGLES_SPANISH } from "../../utils/Conjugaciones-Ingles-Spanish.mjs";
 
 // Creamos una interfaz de lectura
 const rl = readline.createInterface({
@@ -8,40 +9,29 @@ const rl = readline.createInterface({
   output: process.stdout, // Usamos la salida estándar (stdout)
 });
 
-const verbosSpanishEnglish = [
-  {
-    verboEspanol: "ser/estar",
-    formasVerbalesIngles: {
-      verbo: "to be",
-      presente: "am/are/is",
-      pasadoSimple: "was/were",
-      pasadoParticipio: "been",
-    },
-  },
-  {
-    verboEspanol: "tener",
-    formasVerbalesIngles: {
-      verbo: "have",
-      presente: "have/has",
-      pasadoSimple: "had",
-      pasadoParticipio: "had",
-    },
-  },
-  {
-    verboEspanol: "ir",
-    formasVerbalesIngles: {
-      verbo: "go",
-      presente: "go/goes",
-      pasadoSimple: "went",
-      pasadoParticipio: "gone",
-    },
-  },
-];
-
 // Array para almacenar los resultados de las verificaciones
 const resultadosVerificacion = [];
 
-console.log("Verbos Español a Ingles");
+// Función para generar un nuevo array con ordenación aleatoria
+function generarArrayAleatorio(array) {
+  // Creamos una copia del array para no modificar el original
+  const arrayAleatorio = array.slice();
+
+  // Algoritmo de Fisher-Yates para mezclar el array
+  for (let i = arrayAleatorio.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arrayAleatorio[i], arrayAleatorio[j]] = [
+      arrayAleatorio[j],
+      arrayAleatorio[i],
+    ];
+  }
+
+  return arrayAleatorio;
+}
+
+const arrayAleatorioVerbosSpanishEnglish = generarArrayAleatorio(
+  CONJUGACIONES_INGLES_SPANISH
+);
 
 // Función para hacer una pregunta y manejar errores
 function preguntaAsync(pregunta) {
@@ -61,7 +51,7 @@ function preguntaAsync(pregunta) {
 
 // Función para realizar una pregunta
 function hacerPregunta(indice) {
-  const elemento = verbosSpanishEnglish[indice];
+  const elemento = arrayAleatorioVerbosSpanishEnglish[indice];
   console.log(
     `\nVerbo en español: ${
       COLORES_TEXTOS_CONSOLA.azul
@@ -89,7 +79,8 @@ function hacerPregunta(indice) {
 
 // Función para iterar sobre los verbos y hacer preguntas
 async function iterarVerbos() {
-  for (let i = 0; i < verbosSpanishEnglish.length; i++) {
+  console.log("Verbos Español a Ingles");
+  for (let i = 0; i < arrayAleatorioVerbosSpanishEnglish.length; i++) {
     try {
       await hacerPregunta(i); // Esperar a que se complete la pregunta antes de pasar al siguiente verbo
     } catch (error) {
