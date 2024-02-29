@@ -53,7 +53,7 @@ function preguntaAsync(pregunta) {
 function hacerPregunta(indice) {
   const elemento = arrayAleatorioVerbosSpanishEnglish[indice];
   console.log(
-    `\nVerbo en español: ${
+    `\nVerbo en español ${indice + 1}/${arrayAleatorioVerbosSpanishEnglish.length}: ${
       COLORES_TEXTOS_CONSOLA.azul
     }${elemento.verboEspanol.toUpperCase()} ${COLORES_TEXTOS_CONSOLA.reset}`
   );

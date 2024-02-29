@@ -3,20 +3,17 @@ import readline from "readline";
 import { COLORES_TEXTOS_CONSOLA } from "../../utils/Estilos-Consola.mjs";
 import { CONJUGACIONES_INGLES_SPANISH } from "../../utils/Conjugaciones-Ingles-Spanish.mjs";
 
-// Creamos una interfaz de lectura
 const rl = readline.createInterface({
-  input: process.stdin, // Usamos la entrada estándar (stdin)
-  output: process.stdout, // Usamos la salida estándar (stdout)
+  input: process.stdin,
+  output: process.stdout,
 });
 
 const resultadosVerificacion = [];
 
 // Función para generar un nuevo array con ordenación aleatoria
 function generarArrayAleatorio(array) {
-  // Creamos una copia del array para no modificar el original
   const arrayAleatorio = array.slice();
 
-  // Algoritmo de Fisher-Yates para mezclar el array
   for (let i = arrayAleatorio.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [arrayAleatorio[i], arrayAleatorio[j]] = [
@@ -56,7 +53,7 @@ function preguntaAsync(pregunta) {
 function hacerPregunta(indice) {
   const elemento = arrayAleatorioVerbosSpanishEnglish[indice];
   console.log(
-    `\nVerbo: ${
+    `\nVerbo ${indice + 1}/${arrayAleatorioVerbosSpanishEnglish.length}: ${
       COLORES_TEXTOS_CONSOLA.azul
     }${elemento.formasVerbalesIngles.verbo.toUpperCase()} ${
       COLORES_TEXTOS_CONSOLA.reset
@@ -73,6 +70,9 @@ function hacerPregunta(indice) {
       const participio = await preguntaAsync(
         "Participio pasado del verbo en inglés: "
       );
+      const verboTerminadoEnIng = await preguntaAsync(
+        "Ing del verbo en inglés: "
+      );
 
       resultadosVerificacion.push({
         verbo: elemento.formasVerbalesIngles.verbo,
@@ -81,10 +81,13 @@ function hacerPregunta(indice) {
         conjugacionPasadoCorrecto: elemento.formasVerbalesIngles.pasadoSimple,
         conjugacionPastParticipioCorrecto:
           elemento.formasVerbalesIngles.pasadoParticipio,
+        verboTerminadoEnIngCorrecto:
+          elemento.formasVerbalesIngles.verboTerminadoEnIng,
         traduccionVerboSpanishUsuario: traduccionVerboSpanish,
         conjugacionPresenteUsuario: presente,
         conjugacionPasadoUsuario: pasado,
         conjugacionPastParticipioUsuario: participio,
+        verboTerminadoEnIngUsuario: verboTerminadoEnIng,
       });
 
       resolve();
@@ -170,6 +173,20 @@ async function iterarVerbos() {
     } else {
       console.log(
         `Participio: ${COLORES_TEXTOS_CONSOLA.rojo}${resultado.conjugacionPastParticipioUsuario}${COLORES_TEXTOS_CONSOLA.reset} (Incorrecto, es "${COLORES_TEXTOS_CONSOLA.amarillo}${resultado.conjugacionPastParticipioCorrecto}${COLORES_TEXTOS_CONSOLA.reset}")`
+      );
+    }
+
+    // Verbo terminado en ing
+    if (
+      resultado.verboTerminadoEnIngUsuario ===
+      resultado.verboTerminadoEnIngCorrecto
+    ) {
+      console.log(
+        `Terminado en ing: ${COLORES_TEXTOS_CONSOLA.verde}${resultado.verboTerminadoEnIngUsuario}${COLORES_TEXTOS_CONSOLA.reset} (Correcto)`
+      );
+    } else {
+      console.log(
+        `Terminado en ing: ${COLORES_TEXTOS_CONSOLA.rojo}${resultado.verboTerminadoEnIngUsuario}${COLORES_TEXTOS_CONSOLA.reset} (Incorrecto, es "${COLORES_TEXTOS_CONSOLA.amarillo}${resultado.verboTerminadoEnIngCorrecto}${COLORES_TEXTOS_CONSOLA.reset}")`
       );
     }
 

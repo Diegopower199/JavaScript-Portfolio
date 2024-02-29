@@ -2,23 +2,20 @@
 
 Este repositorio contiene un conjunto de proyectos desarrollados en JavaScript
 
-
 ## Advertencia :warning:
 
-Los proyectos de JavaScript hay dos extensiones posibles: 
+Los proyectos de JavaScript hay dos extensiones posibles:
 
-  - **_Si utilizo require la extension debe ser .js_**
+- **_Si utilizo require la extension debe ser .js_**
 
-  - **_Si utilizo import la extension debe ser .mjs_**
-
+- **_Si utilizo import la extension debe ser .mjs_**
 
 ## Proyectos Futuros
 
-  - Control de errores
-  
-  - Validacion de formularios 
+- Control de errores
 
+- Validacion de formularios
 
 ## Compilar programas ⚙️
 
-    - node main.mjs
+- node main.mjs

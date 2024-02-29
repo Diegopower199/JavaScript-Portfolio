@@ -6,6 +6,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "am/are/is",
       pasadoSimple: "was/were",
       pasadoParticipio: "been",
+      verboTerminadoEnIng: "being",
     },
   },
   {
@@ -15,6 +16,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "accept/accepts",
       pasadoSimple: "accepted",
       pasadoParticipio: "accepted",
+      verboTerminadoEnIng: "accepting",
     },
   },
   {
@@ -24,6 +26,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "add/adds",
       pasadoSimple: "added",
       pasadoParticipio: "added",
+      verboTerminadoEnIng: "adding",
     },
   },
   {
@@ -33,6 +36,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "begin/begins",
       pasadoSimple: "began",
       pasadoParticipio: "begun",
+      verboTerminadoEnIng: "beginning",
     },
   },
   {
@@ -42,6 +46,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "become/becomes",
       pasadoSimple: "became",
       pasadoParticipio: "become",
+      verboTerminadoEnIng: "becoming",
     },
   },
   {
@@ -51,6 +56,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "buy/buys",
       pasadoSimple: "bought",
       pasadoParticipio: "bought",
+      verboTerminadoEnIng: "buying",
     },
   },
   {
@@ -60,6 +66,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "believe/believes",
       pasadoSimple: "believed",
       pasadoParticipio: "believed",
+      verboTerminadoEnIng: "believing",
     },
   },
   {
@@ -69,6 +76,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "break/breaks",
       pasadoSimple: "broke",
       pasadoParticipio: "broken",
+      verboTerminadoEnIng: "breaking",
     },
   },
   {
@@ -78,6 +86,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "belong/belongs",
       pasadoSimple: "belonged",
       pasadoParticipio: "belonged",
+      verboTerminadoEnIng: "belonging",
     },
   },
   {
@@ -87,6 +96,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "blame/blames",
       pasadoSimple: "blamed",
       pasadoParticipio: "blamed",
+      verboTerminadoEnIng: "blaming",
     },
   },
   {
@@ -96,6 +106,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "bleed/bleeds",
       pasadoSimple: "bled",
       pasadoParticipio: "bled",
+      verboTerminadoEnIng: "bleeding",
     },
   },
   {
@@ -105,6 +116,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "blow/blows",
       pasadoSimple: "blew",
       pasadoParticipio: "blown",
+      verboTerminadoEnIng: "blowing",
     },
   },
   {
@@ -114,6 +126,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "arrive/arrives",
       pasadoSimple: "arrived",
       pasadoParticipio: "arrived",
+      verboTerminadoEnIng: "arriving",
     },
   },
   {
@@ -123,6 +136,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "interrupt/interrupts",
       pasadoSimple: "interrupted",
       pasadoParticipio: "interrupted",
+      verboTerminadoEnIng: "interrupting",
     },
   },
   {
@@ -132,6 +146,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "aim to/aims to",
       pasadoSimple: "aimed to",
       pasadoParticipio: "aimed to",
+      verboTerminadoEnIng: "aiming to",
     },
   },
   {
@@ -141,6 +156,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "allow/allows",
       pasadoSimple: "allowed",
       pasadoParticipio: "allowed",
+      verboTerminadoEnIng: "allowing",
     },
   },
   {
@@ -150,6 +166,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "behold/beholds",
       pasadoSimple: "beheld",
       pasadoParticipio: "beheld",
+      verboTerminadoEnIng: "beholding",
     },
   },
   {
@@ -159,6 +176,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "blend/blends",
       pasadoSimple: "blended",
       pasadoParticipio: "blended",
+      verboTerminadoEnIng: "blending",
     },
   },
   {
@@ -168,6 +186,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "borrow/borrows",
       pasadoSimple: "borrowed",
       pasadoParticipio: "borrowed",
+      verboTerminadoEnIng: "borrowing",
     },
   },
   {
@@ -177,6 +196,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "bring/brings",
       pasadoSimple: "brought",
       pasadoParticipio: "brought",
+      verboTerminadoEnIng: "bringing",
     },
   },
   {
@@ -186,6 +206,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "meet/meets",
       pasadoSimple: "met",
       pasadoParticipio: "met",
+      verboTerminadoEnIng: "meeting",
     },
   },
   {
@@ -195,6 +216,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "call/calls",
       pasadoSimple: "called",
       pasadoParticipio: "called",
+      verboTerminadoEnIng: "calling",
     },
   },
   {
@@ -204,6 +226,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "cook/cooks",
       pasadoSimple: "cooked",
       pasadoParticipio: "cooked",
+      verboTerminadoEnIng: "cooking",
     },
   },
   {
@@ -213,6 +236,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "choose/chooses",
       pasadoSimple: "chose",
       pasadoParticipio: "chosen",
+      verboTerminadoEnIng: "choosing",
     },
   },
   {
@@ -222,6 +246,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "change/changes",
       pasadoSimple: "changed",
       pasadoParticipio: "changed",
+      verboTerminadoEnIng: "changing",
     },
   },
   {
@@ -231,6 +256,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "check/checks",
       pasadoSimple: "checked",
       pasadoParticipio: "checked",
+      verboTerminadoEnIng: "checking",
     },
   },
   {
@@ -240,6 +266,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "cover/covers",
       pasadoSimple: "covered",
       pasadoParticipio: "covered",
+      verboTerminadoEnIng: "covering",
     },
   },
   {
@@ -249,6 +276,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "cry/cries",
       pasadoSimple: "cried",
       pasadoParticipio: "cried",
+      verboTerminadoEnIng: "crying",
     },
   },
   {
@@ -258,6 +286,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "care/cares",
       pasadoSimple: "cared",
       pasadoParticipio: "cared",
+      verboTerminadoEnIng: "caring",
     },
   },
   {
@@ -267,6 +296,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "carry/carries",
       pasadoSimple: "carried",
       pasadoParticipio: "carried",
+      verboTerminadoEnIng: "carrying",
     },
   },
   {
@@ -276,6 +306,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "chase/chases",
       pasadoSimple: "chased",
       pasadoParticipio: "chased",
+      verboTerminadoEnIng: "chasing",
     },
   },
   {
@@ -285,6 +316,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "chide/chides",
       pasadoSimple: "chid",
       pasadoParticipio: "chide/chidden",
+      verboTerminadoEnIng: "chiding",
     },
   },
   {
@@ -294,6 +326,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "claim/claims",
       pasadoSimple: "claimed",
       pasadoParticipio: "claimed",
+      verboTerminadoEnIng: "claiming",
     },
   },
   {
@@ -303,6 +336,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "clarify/clarifies",
       pasadoSimple: "clarifyd",
       pasadoParticipio: "clarifyd",
+      verboTerminadoEnIng: "clarifying",
     },
   },
   {
@@ -312,6 +346,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "come/comes",
       pasadoSimple: "came",
       pasadoParticipio: "come",
+      verboTerminadoEnIng: "coming",
     },
   },
   {
@@ -321,6 +356,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "combine/combines",
       pasadoSimple: "combined",
       pasadoParticipio: "combined",
+      verboTerminadoEnIng: "combining",
     },
   },
   {
@@ -330,6 +366,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "compare/compares",
       pasadoSimple: "compared",
       pasadoParticipio: "compared",
+      verboTerminadoEnIng: "comparing",
     },
   },
   {
@@ -339,6 +376,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "complete/completes",
       pasadoSimple: "completed",
       pasadoParticipio: "completed",
+      verboTerminadoEnIng: "completing",
     },
   },
   {
@@ -348,6 +386,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "charge/charges",
       pasadoSimple: "charged",
       pasadoParticipio: "charged",
+      verboTerminadoEnIng: "charging",
     },
   },
   {
@@ -357,6 +396,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "consist/consists",
       pasadoSimple: "consisted",
       pasadoParticipio: "consisted",
+      verboTerminadoEnIng: "consisting",
     },
   },
   {
@@ -366,6 +406,157 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "cost/costs",
       pasadoSimple: "cost",
       pasadoParticipio: "cost",
+      verboTerminadoEnIng: "costing",
+    },
+  },
+  {
+    verboEspanol: "dañar",
+    formasVerbalesIngles: {
+      verbo: "damage",
+      presente: "damage/damages",
+      pasadoSimple: "damaged",
+      pasadoParticipio: "damaged",
+      verboTerminadoEnIng: "damaging",
+    },
+  },
+  {
+    verboEspanol: "desarrollar",
+    formasVerbalesIngles: {
+      verbo: "develop",
+      presente: "develop/develops",
+      pasadoSimple: "developed",
+      pasadoParticipio: "developed",
+      verboTerminadoEnIng: "developing",
+    },
+  },
+  {
+    verboEspanol: "denegar",
+    formasVerbalesIngles: {
+      verbo: "deny",
+      presente: "deny/denies",
+      pasadoSimple: "denied",
+      pasadoParticipio: "denied",
+      verboTerminadoEnIng: "denying",
+    },
+  },
+  {
+    verboEspanol: "morir",
+    formasVerbalesIngles: {
+      verbo: "die",
+      presente: "die/dies",
+      pasadoSimple: "died",
+      pasadoParticipio: "died",
+      verboTerminadoEnIng: "dying",
+    },
+  },
+  {
+    verboEspanol: "hacer",
+    formasVerbalesIngles: {
+      verbo: "do",
+      presente: "do/does",
+      pasadoSimple: "did",
+      pasadoParticipio: "done",
+      verboTerminadoEnIng: "doing",
+    },
+  },
+  {
+    verboEspanol: "dibujar",
+    formasVerbalesIngles: {
+      verbo: "draw",
+      presente: "draw/draws",
+      pasadoSimple: "drew",
+      pasadoParticipio: "drawn",
+      verboTerminadoEnIng: "drawing",
+    },
+  },
+  {
+    verboEspanol: "soñar",
+    formasVerbalesIngles: {
+      verbo: "dream",
+      presente: "dream/dreams",
+      pasadoSimple: "dreamt",
+      pasadoParticipio: "dreamt",
+      verboTerminadoEnIng: "dreaming",
+    },
+  },
+  {
+    verboEspanol: "vestir",
+    formasVerbalesIngles: {
+      verbo: "dress",
+      presente: "dress/dresses",
+      pasadoSimple: "dressed",
+      pasadoParticipio: "dressed",
+      verboTerminadoEnIng: "dressing",
+    },
+  },
+  {
+    verboEspanol: "conducir",
+    formasVerbalesIngles: {
+      verbo: "drive",
+      presente: "drive/drives",
+      pasadoSimple: "drove",
+      pasadoParticipio: "driven",
+      verboTerminadoEnIng: "driving",
+    },
+  },
+  {
+    verboEspanol: "dejar caer",
+    formasVerbalesIngles: {
+      verbo: "drop",
+      presente: "drop/drops",
+      pasadoSimple: "dropped",
+      pasadoParticipio: "dropped",
+      verboTerminadoEnIng: "dropping",
+    },
+  },
+  {
+    verboEspanol: "secar",
+    formasVerbalesIngles: {
+      verbo: "dry",
+      presente: "dry/dries",
+      pasadoSimple: "dried",
+      pasadoParticipio: "dried",
+      verboTerminadoEnIng: "drying",
+    },
+  },
+  {
+    verboEspanol: "ganar",
+    formasVerbalesIngles: {
+      verbo: "earn",
+      presente: "earn/earns",
+      pasadoSimple: "earned",
+      pasadoParticipio: "earned",
+      verboTerminadoEnIng: "earning",
+    },
+  },
+  {
+    verboEspanol: "facilitar",
+    formasVerbalesIngles: {
+      verbo: "ease",
+      presente: "ease/eases",
+      pasadoSimple: "eased",
+      pasadoParticipio: "eased",
+      verboTerminadoEnIng: "easing",
+    },
+  },
+  {
+    verboEspanol: "comer",
+    formasVerbalesIngles: {
+      verbo: "eat",
+      presente: "eat/eats",
+      pasadoSimple: "ate",
+      pasadoParticipio: "eaten",
+      verboTerminadoEnIng: "eating",
+    },
+  },
+  {
+    verboEspanol: "expulsar",
+    formasVerbalesIngles: {
+      verbo: "eject",
+      presente: "eject/ejects",
+      pasadoSimple: "ejected",
+      pasadoParticipio: "ejected",
+      verboTerminadoEnIng: "ejecting",
     },
   },
 ];

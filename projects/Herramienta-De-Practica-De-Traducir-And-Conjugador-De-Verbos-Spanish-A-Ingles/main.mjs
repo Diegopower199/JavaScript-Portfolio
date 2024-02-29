@@ -53,9 +53,11 @@ function preguntaAsync(pregunta) {
 function hacerPregunta(indice) {
   const elemento = arrayAleatorioVerbosSpanishEnglish[indice];
   console.log(
-    `\nVerbo en español: ${
-      COLORES_TEXTOS_CONSOLA.azul
-    }${elemento.verboEspanol.toUpperCase()} ${COLORES_TEXTOS_CONSOLA.reset}`
+    `\nVerbo en español ${indice + 1}/${
+      arrayAleatorioVerbosSpanishEnglish.length
+    }: ${COLORES_TEXTOS_CONSOLA.azul}${elemento.verboEspanol.toUpperCase()} ${
+      COLORES_TEXTOS_CONSOLA.reset
+    }`
   );
 
   return new Promise(async (resolve, reject) => {
@@ -68,6 +70,9 @@ function hacerPregunta(indice) {
       const participio = await preguntaAsync(
         "Participio pasado del verbo en inglés: "
       );
+      const verboTerminadoEnIng = await preguntaAsync(
+        "Ing del verbo en inglés: "
+      );
 
       resultadosVerificacion.push({
         verboSpanish: elemento.verboEspanol,
@@ -76,10 +81,13 @@ function hacerPregunta(indice) {
         conjugacionPasadoCorrecto: elemento.formasVerbalesIngles.pasadoSimple,
         conjugacionPastParticipioCorrecto:
           elemento.formasVerbalesIngles.pasadoParticipio,
+        verboTerminadoEnIngCorrecto:
+          elemento.formasVerbalesIngles.verboTerminadoEnIng,
         traduccionVerboEnglishUsuario: traduccionVerboIngles,
         conjugacionPresenteUsuario: presente,
         conjugacionPasadoUsuario: pasado,
         conjugacionPastParticipioUsuario: participio,
+        verboTerminadoEnIngUsuario: verboTerminadoEnIng,
       });
 
       resolve();
@@ -163,6 +171,20 @@ async function iterarVerbos() {
     } else {
       console.log(
         `Participio: ${COLORES_TEXTOS_CONSOLA.rojo}${resultado.conjugacionPastParticipioUsuario}${COLORES_TEXTOS_CONSOLA.reset} (Incorrecto, es "${COLORES_TEXTOS_CONSOLA.amarillo}${resultado.conjugacionPastParticipioCorrecto}${COLORES_TEXTOS_CONSOLA.reset}")`
+      );
+    }
+
+    // Verbo terminado en ing
+    if (
+      resultado.verboTerminadoEnIngUsuario ===
+      resultado.verboTerminadoEnIngCorrecto
+    ) {
+      console.log(
+        `Terminado en ing: ${COLORES_TEXTOS_CONSOLA.verde}${resultado.verboTerminadoEnIngUsuario}${COLORES_TEXTOS_CONSOLA.reset} (Correcto)`
+      );
+    } else {
+      console.log(
+        `Terminado en ing: ${COLORES_TEXTOS_CONSOLA.rojo}${resultado.verboTerminadoEnIngUsuario}${COLORES_TEXTOS_CONSOLA.reset} (Incorrecto, es "${COLORES_TEXTOS_CONSOLA.amarillo}${resultado.verboTerminadoEnIngCorrecto}${COLORES_TEXTOS_CONSOLA.reset}")`
       );
     }
 
