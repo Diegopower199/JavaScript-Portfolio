@@ -66,7 +66,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "believe/believes",
       pasadoSimple: "believed",
       pasadoParticipio: "believed",
-      verboTerminadoEnIng: "believing",
+      verboTerminadoEnIng: "no hay",
     },
   },
   {
@@ -146,7 +146,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "aim to/aims to",
       pasadoSimple: "aimed to",
       pasadoParticipio: "aimed to",
-      verboTerminadoEnIng: "aiming to",
+      verboTerminadoEnIng: "no hay",
     },
   },
   {
@@ -520,7 +520,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
     },
   },
   {
-    verboEspanol: "ganar",
+    verboEspanol: "ganar dinero (relacionado con dinero)",
     formasVerbalesIngles: {
       verbo: "earn",
       presente: "earn/earns",
@@ -557,6 +557,126 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       pasadoSimple: "ejected",
       pasadoParticipio: "ejected",
       verboTerminadoEnIng: "ejecting",
+    },
+  },
+  {
+    verboEspanol: "disfrutar",
+    formasVerbalesIngles: {
+      verbo: "enjoy",
+      presente: "enjoy/enjoys",
+      pasadoSimple: "enjoyed",
+      pasadoParticipio: "enjoyed",
+      verboTerminadoEnIng: "enjoying",
+    },
+  },
+  {
+    verboEspanol: "envidiar",
+    formasVerbalesIngles: {
+      verbo: "envy",
+      presente: "envy/envies",
+      pasadoSimple: "envied",
+      pasadoParticipio: "envied",
+      verboTerminadoEnIng: "envying",
+    },
+  },
+  {
+    verboEspanol: "exponer",
+    formasVerbalesIngles: {
+      verbo: "expose",
+      presente: "expose/exposes",
+      pasadoSimple: "exposed",
+      pasadoParticipio: "exposed",
+      verboTerminadoEnIng: "exposing",
+    },
+  },
+  {
+    verboEspanol: "fracasar",
+    formasVerbalesIngles: {
+      verbo: "fail",
+      presente: "fail/fails",
+      pasadoSimple: "failed",
+      pasadoParticipio: "failed",
+      verboTerminadoEnIng: "faling",
+    },
+  },
+  {
+    verboEspanol: "caer",
+    formasVerbalesIngles: {
+      verbo: "fall",
+      presente: "fall/falls",
+      pasadoSimple: "fell",
+      pasadoParticipio: "fallen",
+      verboTerminadoEnIng: "falling",
+    },
+  },
+  {
+    verboEspanol: "sujetar",
+    formasVerbalesIngles: {
+      verbo: "fatten",
+      presente: "fatten/fattens",
+      pasadoSimple: "fastened",
+      pasadoParticipio: "fastened",
+      verboTerminadoEnIng: "fattening",
+    },
+  },
+  {
+    verboEspanol: "temer",
+    formasVerbalesIngles: {
+      verbo: "fear",
+      presente: "fear/fears",
+      pasadoSimple: "feared",
+      pasadoParticipio: "feared",
+      verboTerminadoEnIng: "fearing",
+    },
+  },
+  {
+    verboEspanol: "alimentar (generalmente es alimentar animales)",
+    formasVerbalesIngles: {
+      verbo: "feed",
+      presente: "feed/feeds",
+      pasadoSimple: "fed",
+      pasadoParticipio: "fed",
+      verboTerminadoEnIng: "feeding",
+    },
+  },
+  {
+    verboEspanol: "sentir",
+    formasVerbalesIngles: {
+      verbo: "feel",
+      presente: "feel/feels",
+      pasadoSimple: "felt",
+      pasadoParticipio: "felt",
+      verboTerminadoEnIng: "feeling",
+    },
+  },
+  {
+    verboEspanol: "pelear",
+    formasVerbalesIngles: {
+      verbo: "fight",
+      presente: "fight/fights",
+      pasadoSimple: "fought",
+      pasadoParticipio: "fought",
+      verboTerminadoEnIng: "fighting",
+    },
+  },
+  {
+    verboEspanol: "llenar (llenar algo)",
+    formasVerbalesIngles: {
+      verbo: "fill",
+      presente: "fill/fills",
+      pasadoSimple: "filled",
+      pasadoParticipio: "filled",
+      verboTerminadoEnIng: "filling",
+    },
+  },
+  {
+    verboEspanol: "encontrar",
+    formasVerbalesIngles: {
+      verbo: "find",
+      presente: "find/finds",
+      pasadoSimple: "found",
+      pasadoParticipio: "found",
+      verboTerminadoEnIng: "finding",
     },
   },
 ];
