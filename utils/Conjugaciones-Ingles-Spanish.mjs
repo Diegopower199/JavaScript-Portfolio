@@ -520,7 +520,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
     },
   },
   {
-    verboEspanol: "ganar dinero (relacionado con dinero)",
+    verboEspanol: "ganar (dinero)",
     formasVerbalesIngles: {
       verbo: "earn",
       presente: "earn/earns",
@@ -596,7 +596,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       presente: "fail/fails",
       pasadoSimple: "failed",
       pasadoParticipio: "failed",
-      verboTerminadoEnIng: "faling",
+      verboTerminadoEnIng: "failing",
     },
   },
   {
@@ -612,11 +612,11 @@ export const CONJUGACIONES_INGLES_SPANISH = [
   {
     verboEspanol: "sujetar",
     formasVerbalesIngles: {
-      verbo: "fatten",
-      presente: "fatten/fattens",
+      verbo: "fasten",
+      presente: "fasten/fastens",
       pasadoSimple: "fastened",
       pasadoParticipio: "fastened",
-      verboTerminadoEnIng: "fattening",
+      verboTerminadoEnIng: "fastening",
     },
   },
   {
