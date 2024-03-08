@@ -590,7 +590,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
     },
   },
   {
-    verboEspanol: "fracasar",
+    verboEspanol: "fracasar/fallar",
     formasVerbalesIngles: {
       verbo: "fail",
       presente: "fail/fails",
@@ -677,6 +677,126 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       pasadoSimple: "found",
       pasadoParticipio: "found",
       verboTerminadoEnIng: "finding",
+    },
+  },
+  {
+    verboEspanol: "terminar",
+    formasVerbalesIngles: {
+      verbo: "finish",
+      presente: "finish/finishes",
+      pasadoSimple: "finished",
+      pasadoParticipio: "finished",
+      verboTerminadoEnIng: "finishing (se usa poco)",
+    },
+  },
+  {
+    verboEspanol: "arreglar",
+    formasVerbalesIngles: {
+      verbo: "fix",
+      presente: "fix/fixes",
+      pasadoSimple: "fixed",
+      pasadoParticipio: "fixed",
+      verboTerminadoEnIng: "fixing",
+    },
+  },
+  {
+    verboEspanol: "huir",
+    formasVerbalesIngles: {
+      verbo: "flee",
+      presente: "flee/flees",
+      pasadoSimple: "fled",
+      pasadoParticipio: "fled",
+      verboTerminadoEnIng: "fleeing",
+    },
+  },
+  {
+    verboEspanol: "ligar/coquetear",
+    formasVerbalesIngles: {
+      verbo: "flirt",
+      presente: "flirt/flirts",
+      pasadoSimple: "flirted",
+      pasadoParticipio: "flirted",
+      verboTerminadoEnIng: "flirting",
+    },
+  },
+  {
+    verboEspanol: "volar",
+    formasVerbalesIngles: {
+      verbo: "fly",
+      presente: "fly/flies",
+      pasadoSimple: "flew",
+      pasadoParticipio: "flown",
+      verboTerminadoEnIng: "flying",
+    },
+  },
+  {
+    verboEspanol: "doblar",
+    formasVerbalesIngles: {
+      verbo: "fold",
+      presente: "fold/folds",
+      pasadoSimple: "folded",
+      pasadoParticipio: "folded",
+      verboTerminadoEnIng: "folding",
+    },
+  },
+  {
+    verboEspanol: "seguir",
+    formasVerbalesIngles: {
+      verbo: "follow",
+      presente: "follow/follows",
+      pasadoSimple: "followed",
+      pasadoParticipio: "followed",
+      verboTerminadoEnIng: "following",
+    },
+  },
+  {
+    verboEspanol: "engañar/burlarse",
+    formasVerbalesIngles: {
+      verbo: "fool",
+      presente: "fool/fools",
+      pasadoSimple: "fooled",
+      pasadoParticipio: "fooled",
+      verboTerminadoEnIng: "fooling",
+    },
+  },
+  {
+    verboEspanol: "prohibir",
+    formasVerbalesIngles: {
+      verbo: "forbid",
+      presente: "forbid/forbids",
+      pasadoSimple: "forbade",
+      pasadoParticipio: "forbidden",
+      verboTerminadoEnIng: "forbidding",
+    },
+  },
+  {
+    verboEspanol: "forzar",
+    formasVerbalesIngles: {
+      verbo: "force",
+      presente: "force/forces",
+      pasadoSimple: "forced",
+      pasadoParticipio: "forced",
+      verboTerminadoEnIng: "forcing",
+    },
+  },
+  {
+    verboEspanol: "olvidar",
+    formasVerbalesIngles: {
+      verbo: "forget",
+      presente: "forget/forgets",
+      pasadoSimple: "forgot",
+      pasadoParticipio: "forgotten",
+      verboTerminadoEnIng: "forgetting",
+    },
+  },
+  {
+    verboEspanol: "perdonar",
+    formasVerbalesIngles: {
+      verbo: "forgive",
+      presente: "forgive/forgives",
+      pasadoSimple: "forgave",
+      pasadoParticipio: "forgiven",
+      verboTerminadoEnIng: "forgiving",
     },
   },
 ];
