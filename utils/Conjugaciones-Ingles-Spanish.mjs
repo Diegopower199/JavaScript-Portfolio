@@ -799,4 +799,254 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       verboTerminadoEnIng: "forgiving",
     },
   },
+  {
+    verboEspanol: "buscar",
+    formasVerbalesIngles: {
+      verbo: "search",
+      presente: "search/searches",
+      pasadoSimple: "searched",
+      pasadoParticipio: "searched",
+      verboTerminadoEnIng: "searching",
+    },
+  },
+  {
+    verboEspanol: "tomar/coger",
+    formasVerbalesIngles: {
+      verbo: "take",
+      presente: "take/takes",
+      pasadoSimple: "took",
+      pasadoParticipio: "taken",
+      verboTerminadoEnIng: "taking",
+    },
+  },
+  {
+    verboEspanol: "hacer",
+    formasVerbalesIngles: {
+      verbo: "make",
+      presente: "make/makes",
+      pasadoSimple: "made",
+      pasadoParticipio: "made",
+      verboTerminadoEnIng: "making",
+    },
+  },
+  {
+    verboEspanol: "tener",
+    formasVerbalesIngles: {
+      verbo: "have",
+      presente: "have/has",
+      pasadoSimple: "had",
+      pasadoParticipio: "had",
+      verboTerminadoEnIng: "having",
+    },
+  },
+  {
+    verboEspanol: "pensar",
+    formasVerbalesIngles: {
+      verbo: "think",
+      presente: "think/thinks",
+      pasadoSimple: "thank",
+      pasadoParticipio: "thunk",
+      verboTerminadoEnIng: "thinking",
+    },
+  },
+  {
+    verboEspanol: "mirar",
+    formasVerbalesIngles: {
+      verbo: "look",
+      presente: "look/looks",
+      pasadoSimple: "looked",
+      pasadoParticipio: "looked",
+      verboTerminadoEnIng: "looking",
+    },
+  },
+  {
+    verboEspanol: "ver",
+    formasVerbalesIngles: {
+      verbo: "see",
+      presente: "see/sees",
+      pasadoSimple: "saw",
+      pasadoParticipio: "seen",
+      verboTerminadoEnIng: "seeing",
+    },
+  },
+  {
+    verboEspanol: "llevar puesto",
+    formasVerbalesIngles: {
+      verbo: "wear",
+      presente: "wear/wears",
+      pasadoSimple: "wore",
+      pasadoParticipio: "worn",
+      verboTerminadoEnIng: "wearing",
+    },
+  },
+  {
+    verboEspanol: "andar",
+    formasVerbalesIngles: {
+      verbo: "walk",
+      presente: "walk/walks",
+      pasadoSimple: "walked",
+      pasadoParticipio: "walked",
+      verboTerminadoEnIng: "walking",
+    },
+  },
+  {
+    verboEspanol: "imaginar",
+    formasVerbalesIngles: {
+      verbo: "imagine",
+      presente: "imagine/imagines",
+      pasadoSimple: "imagined",
+      pasadoParticipio: "imagined",
+      verboTerminadoEnIng: "imagining (usa poco)",
+    },
+  },
+  {
+    verboEspanol: "maquillarse/preparar algo/inventar",
+    formasVerbalesIngles: {
+      verbo: "make up",
+      presente: "make up/makes up",
+      pasadoSimple: "made up",
+      pasadoParticipio: "made up",
+      verboTerminadoEnIng: "making up",
+    },
+  },
+  {
+    verboEspanol: "revisar",
+    formasVerbalesIngles: {
+      verbo: "look over",
+      presente: "look over/looks over",
+      pasadoSimple: "looked over",
+      pasadoParticipio: "looked over",
+      verboTerminadoEnIng: "looking over",
+    },
+  },
+  {
+    verboEspanol: "decir",
+    formasVerbalesIngles: {
+      verbo: "say",
+      presente: "say/says",
+      pasadoSimple: "said",
+      pasadoParticipio: "said",
+      verboTerminadoEnIng: "saying",
+    },
+  },
+  {
+    verboEspanol: "contar",
+    formasVerbalesIngles: {
+      verbo: "tell",
+      presente: "tell/tells",
+      pasadoSimple: "told",
+      pasadoParticipio: "told",
+      verboTerminadoEnIng: "telling",
+    },
+  },
+  {
+    verboEspanol: "conseguir/obtener",
+    formasVerbalesIngles: {
+      verbo: "get",
+      presente: "get/gets",
+      pasadoSimple: "got",
+      pasadoParticipio: "got/gotten",
+      verboTerminadoEnIng: "getting",
+    },
+  },
+  {
+    verboEspanol: "ir",
+    formasVerbalesIngles: {
+      verbo: "go",
+      presente: "go/goes",
+      pasadoSimple: "went",
+      pasadoParticipio: "gone",
+      verboTerminadoEnIng: "going",
+    },
+  },
+  {
+    verboEspanol: "saber",
+    formasVerbalesIngles: {
+      verbo: "know",
+      presente: "know/knows",
+      pasadoSimple: "knew",
+      pasadoParticipio: "known",
+      verboTerminadoEnIng: "knowing",
+    },
+  },
+  {
+    verboEspanol: "jugar",
+    formasVerbalesIngles: {
+      verbo: "play",
+      presente: "play/plays",
+      pasadoSimple: "played",
+      pasadoParticipio: "played",
+      verboTerminadoEnIng: "playing",
+    },
+  },
+  {
+    verboEspanol: "golpear",
+    formasVerbalesIngles: {
+      verbo: "hit",
+      presente: "hit/hits",
+      pasadoSimple: "hit",
+      pasadoParticipio: "hit",
+      verboTerminadoEnIng: "hitting",
+    },
+  },
+  {
+    verboEspanol: "estar de acuerdo",
+    formasVerbalesIngles: {
+      verbo: "agree",
+      presente: "agree/agrees",
+      pasadoSimple: "agreed",
+      pasadoParticipio: "agreed",
+      verboTerminadoEnIng: "no hay",
+    },
+  },
+  {
+    verboEspanol: "responder",
+    formasVerbalesIngles: {
+      verbo: "answer",
+      presente: "answer/answers",
+      pasadoSimple: "answered",
+      pasadoParticipio: "answered",
+      verboTerminadoEnIng: "answering",
+    },
+  },
+  {
+    verboEspanol: "disculparse/pedir disculpas",
+    formasVerbalesIngles: {
+      verbo: "apologise",
+      presente: "apologise/apologises",
+      pasadoSimple: "apologised",
+      pasadoParticipio: "apologised",
+      verboTerminadoEnIng: "apologising",
+    },
+  },
+  {
+    verboEspanol: "aparecer",
+    formasVerbalesIngles: {
+      verbo: "appear",
+      presente: "appear/appears",
+      pasadoSimple: "appeared",
+      pasadoParticipio: "appeared",
+      verboTerminadoEnIng: "appearing",
+    },
+  },
+  {
+    verboEspanol: "preguntar",
+    formasVerbalesIngles: {
+      verbo: "ask",
+      presente: "ask/asks",
+      pasadoSimple: "asked",
+      pasadoParticipio: "asked",
+      verboTerminadoEnIng: "asking",
+    },
+  },
+  {
+    verboEspanol: "cerrar",
+    formasVerbalesIngles: {
+      verbo: "close",
+      presente: "close/closes",
+      pasadoSimple: "closed",
+      pasadoParticipio: "closed",
+      verboTerminadoEnIng: "closing",
+    },
+  },
 ];
