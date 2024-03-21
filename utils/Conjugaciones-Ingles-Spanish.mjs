@@ -940,7 +940,7 @@ export const CONJUGACIONES_INGLES_SPANISH = [
     },
   },
   {
-    verboEspanol: "conseguir/obtener",
+    verboEspanol: "conseguir/obtener/tener",
     formasVerbalesIngles: {
       verbo: "get",
       presente: "get/gets",
@@ -1047,6 +1047,106 @@ export const CONJUGACIONES_INGLES_SPANISH = [
       pasadoSimple: "closed",
       pasadoParticipio: "closed",
       verboTerminadoEnIng: "closing",
+    },
+  },
+  {
+    verboEspanol: "copiar",
+    formasVerbalesIngles: {
+      verbo: "copy",
+      presente: "copy/copies",
+      pasadoSimple: "copied",
+      pasadoParticipio: "copied",
+      verboTerminadoEnIng: "copying",
+    },
+  },
+  {
+    verboEspanol: "bailar",
+    formasVerbalesIngles: {
+      verbo: "dance",
+      presente: "dance/dances",
+      pasadoSimple: "danced",
+      pasadoParticipio: "danced",
+      verboTerminadoEnIng: "dancing",
+    },
+  },
+  {
+    verboEspanol: "decidir",
+    formasVerbalesIngles: {
+      verbo: "decide",
+      presente: "decide/decides",
+      pasadoSimple: "decided",
+      pasadoParticipio: "decided",
+      verboTerminadoEnIng: "deciding",
+    },
+  },
+  {
+    verboEspanol: "descubrir",
+    formasVerbalesIngles: {
+      verbo: "discover",
+      presente: "discover/discovers",
+      pasadoSimple: "discovered",
+      pasadoParticipio: "discovered",
+      verboTerminadoEnIng: "discovering",
+    },
+  },
+  {
+    verboEspanol: "terminar",
+    formasVerbalesIngles: {
+      verbo: "end",
+      presente: "end/ends",
+      pasadoSimple: "ended",
+      pasadoParticipio: "ended",
+      verboTerminadoEnIng: "ending",
+    },
+  },
+  {
+    verboEspanol: "explicar",
+    formasVerbalesIngles: {
+      verbo: "explain",
+      presente: "explain/explains",
+      pasadoSimple: "explained",
+      pasadoParticipio: "explained",
+      verboTerminadoEnIng: "explaining",
+    },
+  },
+  {
+    verboEspanol: "adivinar",
+    formasVerbalesIngles: {
+      verbo: "guess",
+      presente: "guess/guesses",
+      pasadoSimple: "guessed",
+      pasadoParticipio: "guessed",
+      verboTerminadoEnIng: "guessing",
+    },
+  },
+  {
+    verboEspanol: "suceder/ocurrir",
+    formasVerbalesIngles: {
+      verbo: "happen",
+      presente: "happen/happens",
+      pasadoSimple: "happened",
+      pasadoParticipio: "happened",
+      verboTerminadoEnIng: "happening",
+    },
+  },
+  {
+    verboEspanol: "ayudar",
+    formasVerbalesIngles: {
+      verbo: "help",
+      presente: "help/helps",
+      pasadoSimple: "helped",
+      pasadoParticipio: "helped",
+      verboTerminadoEnIng: "helping",
+    },
+  },
+  {
+    verboEspanol: "Darse prisa",
+    formasVerbalesIngles: {
+      verbo: "hurry",
+      presente: "hurry/hurries",
+      pasadoSimple: "Hurried",
+      pasadoParticipio: "Hurried",
+      verboTerminadoEnIng: "Hurrying (se usa poco)",
     },
   },
 ];
