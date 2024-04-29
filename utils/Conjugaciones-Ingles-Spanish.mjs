@@ -1144,9 +1144,9 @@ export const CONJUGACIONES_INGLES_SPANISH = [
     formasVerbalesIngles: {
       verbo: "hurry",
       presente: "hurry/hurries",
-      pasadoSimple: "Hurried",
-      pasadoParticipio: "Hurried",
-      verboTerminadoEnIng: "Hurrying (se usa poco)",
+      pasadoSimple: "hurried",
+      pasadoParticipio: "hurried",
+      verboTerminadoEnIng: "hurrying (se usa poco)",
     },
   },
 ];
